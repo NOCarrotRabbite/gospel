@@ -2,7 +2,7 @@
   <div class="box">
     <div class="header">
       <h4>商家名称</h4>
-      <h1>￥200,00000</h1>
+      <h1>￥200,000.00</h1>
     </div>
     <div class="cards">
       <div class="card-box">
