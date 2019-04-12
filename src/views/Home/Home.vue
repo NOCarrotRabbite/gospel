@@ -1,55 +1,84 @@
 <template>
   <div class="box">
-    <div class="header">
+    <header class="header">
+      <div class="setting-logo"><i class="iconfont icon-icon-test"></i></div>
       <h4>商家名称</h4>
       <h1>￥200,000.00</h1>
-    </div>
+    </header>
     <div class="cards">
       <div class="card-box">
         <router-link to='/my_shop'>
-          <div class="card-item">我的店铺</div>
+          <div class="card-item left">我的店铺</div>
         </router-link>
         <router-link to='/charge_info'>
-          <div class="card-item">我的订单</div>
+          <div class="card-item right">我的订单</div>
         </router-link>
       </div>
       <div class="card-box">
         <router-link to='/take_money_info'>
-          <div class="card-item">提款记录</div>
+          <div class="card-item left">提款记录</div>
         </router-link>
         <router-link to='/match_card'>
-          <div class="card-item">提现/兑卡</div>
+          <div class="card-item right">提现/兑卡</div>
         </router-link>
       </div>
     </div>
+    <!--<footer>
+      <h4>主页</h4>
+      <h4>店铺</h4>
+      <h4>我的</h4>
+    </footer>-->
   </div>
 </template>
 
 <script>
   export default {
     methods: {
-      query() {
-        alert(123456789);
-      }
     }
   }
 </script>
 <style lang="scss" scoped>
   .box {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-between;*/
+    height: 100%;
     .header {
-      padding: 4rem 0;
+      padding: 5rem 0;
       background-color: #8881D7;
       text-align: center;
       color: white;
+      .setting-logo {
+        padding: 0 1rem;
+        text-align: right;
+        margin-top: -3rem;
+        i{ font-size: 1.5rem }
+      }
+      h4 { padding: 0.5rem 0 }
     }
     .cards {
+      padding: 1rem 0.5rem;
       .card-box {
         display: flex;
         justify-content: center;
+        // margin-top: 1rem;
         .card-item {
-          padding: 1rem
+          margin: 0.5rem 0.5rem;
+          padding: 3rem;
+          background-color: #fff;
+          border-radius: 10px;
+          color: #1E1E1E;
         }
       }
+    }
+    footer {
+      display: flex;
+      justify-content: space-around;
+      align-content: center;
+      background-color: #fff;
+      color: gray;
+      height: 3rem;
+      line-height: 3rem;
     }
   }
 
