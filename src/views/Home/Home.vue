@@ -1,7 +1,7 @@
 <template>
   <div class="box">
     <header class="header">
-      <div class="setting-logo"><i class="iconfont icon-icon-test"></i></div>
+      <div class="setting-logo"><i class="iconfont icon-peizhiguanli"></i></div>
       <h4>商家名称</h4>
       <h1>￥200,000.00</h1>
     </header>
@@ -39,13 +39,13 @@
 </script>
 <style lang="scss" scoped>
   .box {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*justify-content: space-between;*/
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
     height: 100%;
     .header {
       padding: 5rem 0;
-      background-color: #8881D7;
+      background-color: #7261D1;
       text-align: center;
       color: white;
       .setting-logo {

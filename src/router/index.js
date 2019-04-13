@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Home from '@/views/home/Home';
 import MyShop from '@/views/shop/Myshop';
+import EditShop from '@/views/shop/EditShop';
 import Goods from '@/views/shop/Goods';
 import ChargeInfo from '@/views/order/ChargeInfo';
 import TakeMoneyInfo from '@/views/money/TakeMoneyInfo';
@@ -21,6 +22,11 @@ export default new Router({
       path: '/my_shop',
       name: 'MyShop',
       component: MyShop
+    },
+    {
+      path: '/edit_shop',
+      name: 'EditShop',
+      component: EditShop
     },
     {
       path: '/goods',
