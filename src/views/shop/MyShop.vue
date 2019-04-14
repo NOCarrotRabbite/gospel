@@ -7,7 +7,7 @@
     </header>
     <main>
       <ul>
-        <a href="#">
+        <a href="./goods">
           <li>
             <img src="@/assets/images/shop08.jpg" width="30%"/>
             <div class="introduce">
@@ -22,7 +22,7 @@
             </div>
           </li>
         </a>
-        <a href="./edit_shop">
+        <a href="./goods">
           <li>
             <img src="@/assets/images/shop08.jpg" width="30%"/>
             <div class="introduce">
@@ -35,7 +35,7 @@
             </div>
           </li>
         </a>
-        <a href="./edit_shop">
+        <a href="./goods">
           <li>
             <img src="@/assets/images/shop08.jpg" width="30%"/>
             <div class="introduce">
@@ -48,7 +48,7 @@
             </div>
           </li>
         </a>
-        <a href="./edit_shop">
+        <a href="./goods">
           <li>
             <img src="@/assets/images/shop08.jpg" width="30%"/>
             <div class="introduce">
@@ -61,7 +61,7 @@
             </div>
           </li>
         </a>
-        <a href="./edit_shop">
+        <a href="./goods">
           <li>
             <img src="@/assets/images/shop08.jpg" width="30%"/>
             <div class="introduce">
@@ -74,7 +74,7 @@
             </div>
           </li>
         </a>
-        <a href="./edit_shop">
+        <a href="./goods">
           <li>
             <img src="@/assets/images/shop08.jpg" width="30%"/>
             <div class="introduce">
@@ -87,7 +87,7 @@
             </div>
           </li>
         </a>
-        <a href="./edit_shop">
+        <a href="./goods">
           <li>
             <img src="@/assets/images/shop08.jpg" width="30%"/>
             <div class="introduce">
@@ -156,7 +156,7 @@
               color: #877FB0;
             }
             p {
-              font-size: 0.5rem;
+              font-size: 0.7rem;
               color: #C9CBCD;
             }
             align-self: flex-start;
