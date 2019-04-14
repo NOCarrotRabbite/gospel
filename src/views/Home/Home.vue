@@ -8,18 +8,18 @@
     <div class="cards">
       <div class="card-box">
         <router-link to='/my_shop'>
-          <div class="card-item left">我的店铺</div>
+          <div class="card-item left">店铺</div>
         </router-link>
         <router-link to='/charge_info'>
-          <div class="card-item right">我的订单</div>
+          <div class="card-item right">订单</div>
         </router-link>
       </div>
       <div class="card-box">
         <router-link to='/take_money_info'>
-          <div class="card-item left">提款记录</div>
+          <div class="card-item left">提款</div>
         </router-link>
         <router-link to='/match_card'>
-          <div class="card-item right">提现/兑卡</div>
+          <div class="card-item right">兑卡</div>
         </router-link>
       </div>
     </div>
@@ -43,6 +43,7 @@
     flex-direction: column;
     justify-content: space-between; */
     height: 100%;
+    overflow: scroll;
     .header {
       padding: 5rem 0;
       background-color: #7261D1;

@@ -2,51 +2,102 @@
   <div class="shop-box">
     <header>
       <a href="./"><i class="iconfont icon-fanhui"></i></a>
-      <h5>我的店铺</h5>
-      <i class="iconfont icon-jiahao"></i>
+      <h4>我的店铺</h4>
+      <a href="./edit_shop"><i class="iconfont icon-jiahao"></i></a>
     </header>
     <main>
       <ul>
-        <a href="./edit_shop">
+        <a href="#">
           <li>
-            <img src="@/assets/images/shop02.jpeg" width="30%"/>
-            <div>唯爱小屋</div>
-            <i class="iconfont icon-xiangqing"></i>
+            <img src="@/assets/images/shop08.jpg" width="30%"/>
+            <div class="introduce">
+              <h5>唯爱小屋</h5>
+              <p>这是商铺描述这是商铺描述这是商铺描述这是商铺描述这是商铺描述</p>
+            </div>
+            <div class="detail">
+              <a href="./edit_shop">
+                <i class="iconfont icon-xiangqing2"></i>
+              </a>
+              <i class="iconfont icon-xiangqing"></i>
+            </div>
           </li>
         </a>
         <a href="./edit_shop">
           <li>
-            <img src="@/assets/images/shop02.jpeg" width="30%"/>
-            <div>唯爱小屋</div>
-            <i class="iconfont icon-xiangqing"></i>
+            <img src="@/assets/images/shop08.jpg" width="30%"/>
+            <div class="introduce">
+              <h5>唯爱小屋</h5>
+              <p>这是商铺描述这是商铺描述这是商铺描述这是商铺描述这是商铺描述</p>
+            </div>
+            <div class="detail">
+              <i class="iconfont icon-xiangqing2"></i>
+              <i class="iconfont icon-xiangqing"></i>
+            </div>
           </li>
         </a>
         <a href="./edit_shop">
           <li>
-            <img src="@/assets/images/shop02.jpeg" width="30%"/>
-            <div>唯爱小屋</div>
-            <i class="iconfont icon-xiangqing"></i>
+            <img src="@/assets/images/shop08.jpg" width="30%"/>
+            <div class="introduce">
+              <h5>唯爱小屋</h5>
+              <p>这是商铺描述这是商铺描述这是商铺描述这是商铺描述这是商铺描述</p>
+            </div>
+            <div class="detail">
+              <i class="iconfont icon-xiangqing2"></i>
+              <i class="iconfont icon-xiangqing"></i>
+            </div>
           </li>
         </a>
         <a href="./edit_shop">
           <li>
-            <img src="@/assets/images/shop02.jpeg" width="30%"/>
-            <div>唯爱小屋</div>
-            <i class="iconfont icon-xiangqing"></i>
+            <img src="@/assets/images/shop08.jpg" width="30%"/>
+            <div class="introduce">
+              <h5>唯爱小屋</h5>
+              <p>这是商铺描述这是商铺描述这是商铺描述这是商铺描述这是商铺描述</p>
+            </div>
+            <div class="detail">
+              <i class="iconfont icon-xiangqing2"></i>
+              <i class="iconfont icon-xiangqing"></i>
+            </div>
           </li>
         </a>
         <a href="./edit_shop">
           <li>
-            <img src="@/assets/images/shop02.jpeg" width="30%"/>
-            <div>唯爱小屋</div>
-            <i class="iconfont icon-xiangqing"></i>
+            <img src="@/assets/images/shop08.jpg" width="30%"/>
+            <div class="introduce">
+              <h5>唯爱小屋</h5>
+              <p>这是商铺描述这是商铺描述这是商铺描述这是商铺描述这是商铺描述</p>
+            </div>
+            <div class="detail">
+              <i class="iconfont icon-xiangqing2"></i>
+              <i class="iconfont icon-xiangqing"></i>
+            </div>
           </li>
         </a>
         <a href="./edit_shop">
           <li>
-            <img src="@/assets/images/shop02.jpeg" width="30%"/>
-            <div>唯爱小屋</div>
-            <i class="iconfont icon-xiangqing"></i>
+            <img src="@/assets/images/shop08.jpg" width="30%"/>
+            <div class="introduce">
+              <h5>唯爱小屋</h5>
+              <p>这是商铺描述这是商铺描述这是商铺描述这是商铺描述这是商铺描述</p>
+            </div>
+            <div class="detail">
+              <i class="iconfont icon-xiangqing2"></i>
+              <i class="iconfont icon-xiangqing"></i>
+            </div>
+          </li>
+        </a>
+        <a href="./edit_shop">
+          <li>
+            <img src="@/assets/images/shop08.jpg" width="30%"/>
+            <div class="introduce">
+              <h5>唯爱小屋</h5>
+              <p>这是商铺描述这是商铺描述这是商铺描述这是商铺描述这是商铺描述</p>
+            </div>
+            <div class="detail">
+              <i class="iconfont icon-xiangqing2"></i>
+              <i class="iconfont icon-xiangqing"></i>
+            </div>
           </li>
         </a>
       </ul>
@@ -65,29 +116,66 @@
     justify-content: space-between;
     background-color: #7261D1;
     header {
-      height: 2.5rem;
+      min-height: 2.5rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1rem 1rem 0 1rem;
+      padding: 0.7rem 1rem 0.7rem 1rem;
       color: #fff;
+      background-color: #7261D1;
+      i {
+        font-size: 1.3rem;
+      }
       a {
         color: #fff;
       }
     }
     main {
       flex-grow: 1;
+      background-color: #F2F3F7;
+      overflow: scroll;
       ul {
-        padding: 0rem 1rem 1rem 1rem;
+        padding: 0rem 0.5rem 1rem 0.5rem;
         li {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          padding: 0.6rem 1rem;
+          padding: 0.5rem 0.5rem;
           background-color: #fff;
           margin-top: 1rem;
           border-radius: 5px;
-          // border-bottom: 1px solid #aaa;
+          box-shadow: 0.12rem 0.12rem #E0E2E6;
+          img {
+            border-radius: 5px;
+          }
+          .introduce {
+            flex-grow: 1;
+            padding: 0 1rem;
+            line-height: 1.3rem;
+            h5 {
+              color: #877FB0;
+            }
+            p {
+              font-size: 0.5rem;
+              color: #C9CBCD;
+            }
+            align-self: flex-start;
+          }
+          .detail {
+            align-self: flex-start;
+            .icon-xiangqing {
+              display: inline-block;
+              margin-top: 0.8rem;
+              font-size: 0.9rem;
+            }
+            a {
+              .icon-xiangqing2 {
+                font-size: 0.9rem;
+                color: #877FB0;
+              }
+            }
+          }
+
         }
       }
     }
