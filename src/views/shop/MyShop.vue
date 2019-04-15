@@ -114,7 +114,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #7261D1;
     header {
       min-height: 2.5rem;
       display: flex;
