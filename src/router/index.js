@@ -7,6 +7,7 @@ import Goods from '@/views/shop/Goods';
 import ChargeInfo from '@/views/order/ChargeInfo';
 import TakeMoneyInfo from '@/views/money/TakeMoneyInfo';
 import MatchCard from '@/views/money/TakeMoneyAdMatchCard';
+import TakeMoney from '@/views/money/TakeMoney';
 
 Vue.use(Router);
 
@@ -42,6 +43,11 @@ export default new Router({
       path: '/take_money_info',
       name: 'TakeMoneyInfo',
       component: TakeMoneyInfo
+    },
+    {
+      path: '/take_money',
+      name: 'TakeMoney',
+      component: TakeMoney
     },
     {
       path: '/match_card',
