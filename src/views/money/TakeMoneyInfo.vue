@@ -2,8 +2,7 @@
   <div class="take-money-box">
     <header>
       <a href="./"><i class="iconfont icon-fanhui"></i></a>
-      <h4>我的提款</h4>
-      <i class="iconfont icon-canshupeizhi"></i>
+      <h4>提款记录</h4>
     </header>
     <main>
       <div class="take-money">

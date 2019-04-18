@@ -3,9 +3,13 @@
     <header>
       <a href="/take_money_info"><i class="iconfont icon-fanhui"></i></a>
       <h4>提现</h4>
-      <i class="iconfont icon-canshupeizhi"></i>
+      <i class="iconfont icon-canshupeizhi" @click="bindSetting"></i>
     </header>
     <main>
+      <ul v-if="setting" class="bind-setting">
+        <a href="/bind_alipay"><li>绑定支付宝</li></a>
+        <a href="/bind_bank_card"><li>绑定银行卡</li></a>
+      </ul>
       <div class="remain-box">
         <h4>可用余额</h4>
         <span>￥800.00</span>
@@ -35,7 +39,23 @@
 </template>
 
 <script>
-  export default {};
+  export default {
+    data() {
+      return {
+        setting: false
+      }
+    },
+    methods: {
+      bindSetting() {
+        if(this.setting) {
+          this.setting = false;
+        } else {
+          this.setting = true;
+
+        }
+      }
+    }
+  };
 </script>
 <style lang="scss" scoped>
   .take-money {
@@ -48,9 +68,6 @@
       justify-content: space-between;
       align-items: center;
       background: linear-gradient(to bottom right, #884CC3 0%, #6F47B9 50%, #4D2FB5 100%);
-      //background-color: #7261D1;
-      //height: 2.5rem;
-      //color: #4D2FB5;
       color: #fff;
       padding: 1rem 1rem;
       h4 {
@@ -71,14 +88,32 @@
       flex-grow: 1;
       display: flex;
       flex-direction: column;
-      //background: linear-gradient(to bottom right, #884CC3 0%, #6F47B9 50%, #4D2FB5 100%);
-      //padding: 1rem 1rem 0rem 1rem;
+      position: relative;
+      z-index: 99;
+      .bind-setting {
+        background: #2B2B2B;
+        width: 30%;
+        align-self: flex-end;
+        border-radius: 5px;
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+        z-index: 100;
+        padding: 0.3rem 0.5rem;
+        opacity: 0.8;
+        li {
+          padding: 0.5rem 0.5rem;
+          color: #fff;
+          text-align: center;
+        }
+      }
       .remain-box, .arrival-channel, .amount-money {
         display: flex;
         justify-content: space-between;
         padding: 0.5rem 1rem;
         background-color: #fff;
         margin-bottom: 0.5rem;
+        z-index: 99;
         h4 {
           color: #666666;
           //color: #373639;
@@ -96,7 +131,6 @@
         padding:0.5rem 1rem;
         p {
           font-size: 0.9rem;
-          //color: #BABAC4;
           line-height: 1.5rem;
           color: #A3A3A5;
         }
@@ -105,10 +139,10 @@
         background: linear-gradient(to bottom right, #884CC3 0%, #6F47B9 50%, #4D2FB5 100%);
         width: 80%;
         align-self: center;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         padding: 0.5rem 0;
         color: #fff;
-        border-radius: 10px;
+        border-radius: 20px;
         margin-top: 1rem;
       }
 
