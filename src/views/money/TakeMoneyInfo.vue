@@ -12,7 +12,7 @@
           <label><input type="radio" name="payType" value="1"/>支付宝</label>
           <label><input type="radio" name="payType" value="2"/>银行卡</label>
         </div>
-        <!--<button>提款</button>-->
+        <button>提款</button>
       </div>
       <div class="take-money-info">
         <h5>提款记录</h5>
@@ -71,10 +71,10 @@
         justify-content: center;
       }
       i {
-        font-size: 1.3rem;
-      }
+         font-size: 1.3rem;
+       }
       a {
-        color: #4D2FB5;
+         color: #4D2FB5;
       }
     }
     main {
