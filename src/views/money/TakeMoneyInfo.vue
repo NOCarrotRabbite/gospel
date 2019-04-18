@@ -7,12 +7,7 @@
     </header>
     <main>
       <div class="take-money">
-        <input class="money" type="text" placeholder="请输入提款金额，至少大于3000"/>
-        <div class="pay-type">
-          <label><input type="radio" name="payType" value="1"/>支付宝</label>
-          <label><input type="radio" name="payType" value="2"/>银行卡</label>
-        </div>
-        <button>提款</button>
+        <a href="/take_money"><button>提款</button></a>
       </div>
       <div class="take-money-info">
         <h5>提款记录</h5>
